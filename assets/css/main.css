@@ -504,7 +504,7 @@ p {
 }
 .main-bottom p {
   color: var(--white-color);
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 .main-bottom p a {
