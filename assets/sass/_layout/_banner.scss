@@ -1,0 +1,101 @@
+/*------Banner Section Start--------*/
+/*------Banner Section Start--------*/
+.hero-section{
+    padding: 102px 0 255px;
+    background-color: var(--section-bg);
+}
+.hero-thumb{
+    width: 100%;
+    position: relative;
+    img{
+        @include imgw;
+    }
+    .shape1{
+        width: 90px;
+        position: absolute;
+        top: 0;
+        right: 29%;
+        animation: bid 3s linear infinite;
+        animation-delay: 0.0s;
+        img{
+            @include imgw;
+        }
+    }
+    .shape2{
+        width: 90px;
+        position: absolute;
+        bottom: 15%;
+        left: -7%;
+        animation: coin 5s linear infinite;
+        animation-delay: 0.0s;
+        img{
+            @include imgw;
+        }
+    }
+}
+.hero-content{
+    h1{
+        margin-bottom: 10px;
+    }
+    p{
+        margin-bottom: 32px;
+        max-width: 450px;
+    }
+}
+/*------Banner Section End--------*/
+/*------Banner Section End--------*/
+
+/*------Breadcumnd Section Start--------*/
+/*------Breadcumnd Section Start--------*/
+.breadcumnd-section{
+    padding: 20px 0;
+}
+.breadcumnd-content{
+    .bread-link{
+        @include flex;
+        h1{
+            margin-bottom: 32px;
+            margin-top: -27px;
+        }
+        li{
+            color: var(--white-color);
+            font-size: 18px;
+            &:not(:last-child){
+                margin-right: 10px;
+            }
+            i{
+                font-size: 15px;
+            }
+        }
+    }
+}
+.breadcumnd-thumb{
+    max-width: 600px;
+    height: 400px;
+    img{
+        @include imgw;
+        object-fit: contain;
+    }
+}
+.breadcumnd-section.breadcumnd-img{
+    background: url(../../assets/img/faq/bg.png) no-repeat center center;
+    background-size: cover;
+}
+/*------Breadcumnd Section End--------*/
+/*------Breadcumnd Section End--------*/
+
+/*------Breadcumnd Blog Section Start--------*/
+.breadcumnd-section.breadcumnd-img.blog-bread{
+    background: url(../../assets/img/blog/blog-banner.png) no-repeat center center;
+    background-size: cover;
+    padding: 0 0 0;
+    .breadcumnd-content{
+        padding: 70px 0 0;
+    }
+}
+.dashboard-img{
+    background: url(../../assets/img/blog/blog-banner.png) no-repeat center center;
+    background-size: cover;
+    padding: 70px 0 196px;
+}
+/*------Breadcumnd Blog Section End--------*/

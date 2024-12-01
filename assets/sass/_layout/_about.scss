@@ -1,0 +1,37 @@
+//About section Start
+.about-thumb{
+    background: var(--section-bg);
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px 10px 10px 30px;
+    img{
+        @include imgw;
+    }
+}
+.about-content{
+    padding-left: 50px;
+    .section-header{
+        P{
+            text-align: left;
+        }
+    }
+    .fast-support{
+        li{
+            &:not(:last-child){
+                margin-bottom: 35px;
+            }
+            @include flex;
+            .cont{
+                h5{
+                    margin-bottom: 15px;
+                }
+                padding-left: 25px;
+                p{
+                    margin-bottom: 0;
+                    color: var(--white-color)
+                }
+            }
+        }
+    }
+}

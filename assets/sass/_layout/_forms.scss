@@ -1,0 +1,19 @@
+// form section
+.items{
+    .form-check{
+        .check-one{
+            .form-check-input {
+                width: 1em;
+                height: 1em;
+                margin-top: 0.25em;
+                vertical-align: top;
+                background-color: transparent;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                border: 1px solid #fff;
+                box-shadow: none;
+            }
+        }
+    }
+}
