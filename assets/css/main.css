@@ -524,6 +524,12 @@ p {
 .main-bottom .footer-bottom-selcet li:not(:last-child) {
   margin-right: 30px;
 }
+.main-bottom .footer-bottom-selcet li .nice-select {
+  padding: 9px 35px 11px 15px;
+}
+.main-bottom .footer-bottom-selcet li .nice-select .current {
+  font-size: 14px;
+}
 .main-bottom .footer-bottom-selcet li .form-select {
   padding: 8px 35px 8px 15px;
   background-color: transparent;
@@ -805,7 +811,7 @@ p {
 @media (min-width: 992px) {
   .header-wrapper .main-menu li .sub-menu {
     position: absolute;
-    top: 100%;
+    top: 50%;
     right: 0;
     z-index: 999;
     width: 250px;
@@ -828,7 +834,7 @@ p {
   font-weight: 500;
   font-size: 16px;
   display: block;
-  padding: 15px 20px;
+  padding: 11px 20px;
   background: var(--section-bg);
   margin: 5px;
   border-radius: 8px;
@@ -922,7 +928,7 @@ p {
   color: var(--white-color);
   background: transparent;
   font-size: 18px;
-  border: none;
+  border: unset;
   text-align: center;
   border-radius: 10px;
   outline: none;
@@ -1145,7 +1151,7 @@ p {
   height: 85px;
   border-radius: 50%;
   line-height: 85px;
-  margin: 0 auto 20px;
+  margin: 0 auto 30px;
   position: relative;
 }
 .work-items .thumb .serial {
@@ -1178,11 +1184,20 @@ p {
   background: rgba(68, 103, 217, 0.3);
 }
 .work-items .content h5 {
-  margin-bottom: 23px;
+  margin-bottom: 16px;
 }
 .work-items .content p {
   color: var(--white-color);
   margin-bottom: -8px;
+  font-size: 16px;
+}
+@media screen and (max-width: 991px) {
+  .work-items .thumb {
+    margin: 0 auto 20px;
+  }
+  .work-items .content h5 {
+    margin-bottom: 10px;
+  }
 }
 
 .auction-items {
@@ -1410,7 +1425,7 @@ p {
   position: relative;
 }
 .filter-short-wrapper .short-right form input {
-  border: none;
+  border: unset;
   outline: none;
   background-color: transparent;
   padding: 8px 35px 8px 8px;
@@ -1706,7 +1721,7 @@ p {
   width: 100%;
 }
 .newsletter-wrapper .content form .form-input input {
-  border: none;
+  border: unset;
   outline: none;
   background-color: transparent;
   padding: 18px 20px;
@@ -1722,7 +1737,7 @@ p {
   color: var(--placehol);
 }
 .newsletter-wrapper .content form button {
-  border: none;
+  border: unset;
   outline: none;
   width: 30%;
   margin-left: 20px;
@@ -1764,7 +1779,7 @@ p {
 #form .form-control {
   background-color: transparent;
   padding: unset;
-  border: none;
+  border: unset;
   margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
@@ -1836,7 +1851,7 @@ p {
 }
 #form button {
   max-width: 200px;
-  border: none;
+  border: unset;
   padding: 11px 20px 14px;
   border: 1px solid var(--primary-color);
 }
@@ -1958,7 +1973,7 @@ p {
   position: relative;
 }
 .faq-left-wrapper .accordion-item {
-  border: none;
+  border: unset;
   background: #101046;
   border-radius: 5px;
   overflow: hidden;
@@ -2115,7 +2130,7 @@ p {
 }
 .product-details-left-wrapper .amount form input {
   width: 100%;
-  border: none;
+  border: unset;
   outline: none;
   background-color: transparent;
   border: 1px solid var(--border-two);
@@ -2134,7 +2149,7 @@ p {
 .product-details-left-wrapper .amount form button {
   width: 35%;
   margin-left: 15px;
-  border: none;
+  border: unset;
 }
 .product-details-left-wrapper .by-now {
   display: flex;
@@ -2607,7 +2622,7 @@ p {
 }
 .cd-popup-container .register-from form .items .form-input input {
   position: relative;
-  border: none;
+  border: unset;
   outline: none;
   background: transparent;
   color: var(--white-color);
@@ -2634,7 +2649,7 @@ p {
   padding: 12px 15px;
   text-align: center;
   width: 100%;
-  border: none;
+  border: unset;
   border: 1px solid var(--primary-color);
 }
 .cd-popup-container .register-from form .items .cmn--btn:hover {
@@ -2732,7 +2747,7 @@ p {
 }
 .popup-container .register-from form .items .form-input input {
   position: relative;
-  border: none;
+  border: unset;
   outline: none;
   background: transparent;
   color: var(--white-color);
@@ -2759,7 +2774,7 @@ p {
   padding: 12px 15px;
   text-align: center;
   width: 100%;
-  border: none;
+  border: unset;
   border: 1px solid var(--primary-color);
 }
 .popup-container .register-from form .items .cmn--btn:hover {
@@ -2860,7 +2875,7 @@ p {
 }
 .repeatpopup-container .register-from form .items .form-input input {
   position: relative;
-  border: none;
+  border: unset;
   outline: none;
   background: transparent;
   color: var(--white-color);
@@ -2887,7 +2902,7 @@ p {
   padding: 12px 15px;
   text-align: center;
   width: 100%;
-  border: none;
+  border: unset;
   border: 1px solid var(--primary-color);
 }
 .repeatpopup-container .register-from form .items .cmn--btn:hover {
@@ -3089,7 +3104,7 @@ p {
   position: relative;
 }
 .blog-right-items .subscribe-box form input {
-  border: none;
+  border: unset;
   outline: none;
   background-color: transparent;
   border: 1px solid var(--border-two);
@@ -3401,14 +3416,14 @@ p {
   outline: none;
   padding: 10px 10px 70px;
   background-color: transparent;
-  border: none;
+  border: unset;
   color: var(--white-color);
   box-shadow: none;
   font-size: 18px;
 }
 .comment-wrapper .leave-comment .form-clt input {
   width: 100%;
-  border: none;
+  border: unset;
   font-size: 18px;
   outline: none;
   background: transparent;
@@ -3424,7 +3439,7 @@ p {
 .comment-wrapper .leave-comment .cmn--btn {
   max-width: 200px;
   padding: 14px 15px 14px;
-  border: none;
+  border: unset;
   outline: none;
   margin-left: 10px;
   border: 1px solid var(--primary-color);
@@ -3671,7 +3686,7 @@ p {
   border-spacing: 0px 20px;
 }
 .activity-table table tbody .border-none {
-  border: none;
+  border: unset;
 }
 .activity-table table tbody .border-none th {
   background: var(--primary-color);
@@ -3754,7 +3769,7 @@ p {
   top: 0;
 }
 .personal-profile-inner .profile-items .box-one li .form-check {
-  background-color: none;
+  background-color: transparent;
 }
 .personal-profile-inner .profile-items .box-one li .form-check .form-check-input {
   background-color: var(--box-bg);
@@ -3765,7 +3780,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: none;
+  border: unset;
   outline: none;
   background-color: transparent;
   border: 1px solid var(--border-two);
@@ -3781,7 +3796,7 @@ p {
   border-radius: 10px;
 }
 .my-bids-tab .tab-container .my-bid-button .tab-title {
-  border-bottom: 1px solid #7777bf;
+  border-bottom: 1px solid rgba(119, 119, 191, 0.2196078431);
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -3790,9 +3805,9 @@ p {
 }
 .my-bids-tab .tab-container .my-bid-button .tabs .tab {
   width: 160px;
-  padding: 14px 18px;
+  padding: 11px 16px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
 }
 .my-bids-tab .tab-container .tab-content .auction-items {
   margin-bottom: 30px;
@@ -3903,7 +3918,7 @@ p {
     padding-bottom: 10px;
   }
   .personal-profile-inner .profile-items .box-one .ubdate:not(:last-child) {
-    border: none;
+    border: unset;
   }
   .personal-profile-inner .profile-items .profile-ubdate-address {
     padding: 15px 15px;
@@ -4177,7 +4192,7 @@ p {
     width: 100%;
   }
   .main-menu li:not(:last-child) {
-    border-bottom: 1px solid rgb(198, 206, 210);
+    border-bottom: 1px solid rgba(198, 206, 210, 0.1);
     margin-right: 0 !important;
   }
   .main-menu li a {

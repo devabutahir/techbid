@@ -115,7 +115,7 @@
         form{
             position: relative;
             input{
-                border: none;
+                border: unset;
                 outline: none;
                 background-color: transparent;
                 border: 1px solid var(--border-two);
@@ -410,14 +410,14 @@
                 outline: none;
                 padding: 10px 10px 70px;
                 background-color: transparent;
-                border: none;
+                border: unset;
                 color: var(--white-color);
                 box-shadow: none;
                 font-size: 18px;
             }
             input{
                 width: 100%;
-                border: none;
+                border: unset;
                 font-size: 18px;
                 outline: none;
                 background: transparent;
@@ -431,7 +431,7 @@
         .cmn--btn{
             max-width: 200px;
             padding: 14px 15px 14px;
-            border: none;
+            border: unset;
             outline: none;
             margin-left: 10px;
             border: 1px solid var(--primary-color);

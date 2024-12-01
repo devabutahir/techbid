@@ -215,7 +215,7 @@
 				transform: translateY(27px);
 				@media (min-width: 992px) {
 					position: absolute;
-					top: 100%;
+					top: 50%;
 					right: 0;
 					z-index: 999;
 					width: 250px;
@@ -236,7 +236,7 @@
 						font-weight: 500;
 						font-size: 16px;
 						display: block;
-						padding: 15px 20px;
+						padding: 11px 20px;
 						background: var(--section-bg);
 						margin: 5px;
 						border-radius: 8px;
@@ -341,7 +341,7 @@
 			color: var(--white-color);
 			background: transparent;
 			font-size: 18px;
-			border: none;
+			border: unset;
 			text-align: center;
 			border-radius: 10px;
 			outline: none;

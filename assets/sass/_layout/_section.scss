@@ -96,7 +96,7 @@
         height: 85px;
         border-radius: 50%;
         line-height: 85px;
-        margin: 0 auto 20px;
+        margin: 0 auto 30px;
         position: relative;
         .serial{
             display: block;
@@ -129,11 +129,22 @@
     }
     .content{
         h5{
-            margin-bottom: 23px;
+            margin-bottom: 16px;
         }
         p{
             color: var(--white-color);
             margin-bottom: -8px;
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 991px){    
+        .thumb{
+            margin: 0 auto 20px;
+        }
+        .content{
+            h5{
+                margin-bottom: 10px;
+            }
         }
     }
 }
@@ -360,7 +371,7 @@
         form{
             position: relative;
             input{
-                border: none;
+                border: unset;
                 outline: none;
                 background-color: transparent;
                 padding: 8px 35px 8px 8px;
@@ -657,7 +668,7 @@
             .form-input{
                 width: 100%;
                 input{
-                    border: none;
+                    border: unset;
                     outline: none;
                     background-color: transparent;
                     padding: 18px 20px;
@@ -671,7 +682,7 @@
                 }
             }
             button{
-                border: none;
+                border: unset;
                 outline: none;
                 width: calc(100% - 70%);
                 margin-left: 20px;
@@ -721,7 +732,7 @@
     .form-control {
         background-color: transparent;
         padding: unset;
-        border: none;
+        border: unset;
         margin-bottom: 10px;
         padding-bottom: 20px;
         position: relative;
@@ -795,7 +806,7 @@
       }
     button{
         max-width: 200px;
-        border: none;
+        border: unset;
         padding: 11px 20px 14px;
         border: 1px solid var(--primary-color);
         &:hover{
@@ -912,7 +923,7 @@
 .faq-left-wrapper {
     position: relative;
 	.accordion-item {
-		border: none;
+		border: unset;
         background: #101046;
 		border-radius: 5px;
 		overflow: hidden;
@@ -1080,7 +1091,7 @@
             justify-content: space-between;
             input{
                 width: 100%;
-                border: none;
+                border: unset;
                 outline: none;
                 background-color: transparent;
                 border: 1px solid var(--border-two);
@@ -1097,7 +1108,7 @@
             button{
                 width: calc(100% - 65%);
                 margin-left: 15px;
-                border: none;
+                border: unset;
             }
         }
     }
@@ -1580,7 +1591,7 @@
                 width: 100%;
                 input{
                     position: relative;
-                    border: none;
+                    border: unset;
                     outline: none;
                     background: transparent;
                     color: var(--white-color);
@@ -1605,7 +1616,7 @@
                 padding: 12px 15px;
                 text-align: center;
                 width: 100%;
-                border: none;
+                border: unset;
                 border: 1px solid var(--primary-color);
                 &:hover{
                     background-color: transparent;
@@ -1705,7 +1716,7 @@ border-radius: 10px;
                 width: 100%;
                 input{
                     position: relative;
-                    border: none;
+                    border: unset;
                     outline: none;
                     background: transparent;
                     color: var(--white-color);
@@ -1730,7 +1741,7 @@ border-radius: 10px;
                 padding: 12px 15px;
                 text-align: center;
                 width: 100%;
-                border: none;
+                border: unset;
                 border: 1px solid var(--primary-color);
                 &:hover{
                     background-color: transparent;
@@ -1833,7 +1844,7 @@ visibility: visible;
                   width: 100%;
                   input{
                       position: relative;
-                      border: none;
+                      border: unset;
                       outline: none;
                       background: transparent;
                       color: var(--white-color);
@@ -1858,7 +1869,7 @@ visibility: visible;
                   padding: 12px 15px;
                   text-align: center;
                   width: 100%;
-                  border: none;
+                  border: unset;
                   border: 1px solid var(--primary-color);
                   &:hover{
                       background-color: transparent;

@@ -138,6 +138,12 @@
 			&:not(:last-child){
 				margin-right: 30px;
 			}
+			.nice-select{
+				padding: 9px 35px 11px 15px;
+				.current{
+					font-size: 14px;
+				}
+			}
 			.form-select{
 				padding: 8px 35px 8px 15px;
 				background-color: transparent;

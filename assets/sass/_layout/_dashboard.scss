@@ -112,7 +112,7 @@
         border-spacing: 0px 20px;
         tbody{
             .border-none{
-                border: none;
+                border: unset;
                 th{
                     background: var(--primary-color);
                     border-color: unset;
@@ -203,7 +203,7 @@
                     }
                 }
                 .form-check{
-                    background-color: none;
+                    background-color: transparent;
                     .form-check-input{
                         background-color: var(--box-bg);
                         border: 1px solid var(--border-two);
@@ -216,7 +216,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            border: none;
+            border: unset;
             outline: none;
             background-color: transparent;
             border: 1px solid var(--border-two);
@@ -234,7 +234,7 @@
             padding: 30px;
             border-radius: 10px;
             .tab-title{
-                border-bottom: 1px solid #7777bf;
+                border-bottom: 1px solid #7777bf38;
                 padding-bottom: 30px;
                 margin-bottom: 30px;
             }
@@ -242,9 +242,9 @@
                 padding: 0;
                 .tab{
                     width: 160px;
-                    padding: 14px 18px;
+                    padding: 11px 16px;
                     font-weight: 500;
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
         }
@@ -370,7 +370,7 @@
                 }
                 .ubdate{
                     &:not(:last-child){
-                        border: none;
+                        border: unset;
                     }
                 }
             }
